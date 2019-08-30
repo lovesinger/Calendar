@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  Calendar
+//
+//  Created by 许立强 on 2019/8/30.
+//  Copyright © 2019 xlq. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define COLOR_RGB(r, g, b)       [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define COLOR_RGBA(r, g, b, a)   [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define COLOR_HEX(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+// 屏幕宽高
+#define EX_SCREEN_BOUNDS ([UIScreen mainScreen].bounds)
+#define EX_SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define EX_SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define MyFont(s)  [UIFont systemFontOfSize:(s)]
+
+// 苹方-简 常规体
+#define EX_PING_REGULAR(FONTSIZE) [UIFont fontWithName:@"PingFangSC-Regular" size:(FONTSIZE)]
+
+// 苹方-简 中黑体
+#define EX_PING_MEDIUM(FONTSIZE) [UIFont fontWithName:@"PingFangSC-Medium" size:(FONTSIZE)]
+
+
+
+
+#import "UIView+Frame.h"
+
+
+
+#endif /* PrefixHeader_pch */
