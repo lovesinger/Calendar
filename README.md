@@ -132,9 +132,7 @@
 ## Demo
 另外，写了一个日历相关的控件，主要是用于在日历上面标注日期，方面查看，比直接显示文字看起来更方面，也更美观。主要的类：EXCustomCalendarView、EXCustomCalendarCell
 
-<img src="https://github.com/lovesinger/Calendar/blob/master/pic1.png" width="300" height="652" alt="效果图1"/>
-<img src="https://github.com/lovesinger/Calendar/blob/master/pic2.png" width="300" height="652" alt="效果图2"/>
-<img src="https://github.com/lovesinger/Calendar/blob/master/pic3.png" width="300" height="652" alt="效果图3"/>
+<img src="https://github.com/lovesinger/Calendar/blob/master/pic1.png" width="300" height="652" alt="效果图1"/> <img src="https://github.com/lovesinger/Calendar/blob/master/pic2.png" width="300" height="652" alt="效果图2"/> <img src="https://github.com/lovesinger/Calendar/blob/master/pic3.png" width="300" height="652" alt="效果图3"/>
 
 
 ## License
